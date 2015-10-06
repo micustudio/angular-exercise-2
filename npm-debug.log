@@ -1,19 +1,17 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
-1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
-1 verbose cli   'start' ]
-2 info using npm@1.4.28
+1 verbose cli [ 'node', '/home/ubuntu/.nvm/v0.10.35/bin/npm', 'start' ]
+2 info using npm@3.3.5
 3 info using node@v0.10.35
-4 error Error: ENOENT, open '/home/ubuntu/workspace/package.json'
-5 error If you need help, you may report this *entire* log,
-5 error including the npm and node versions, at:
-5 error     <http://github.com/npm/npm/issues>
-6 error System Linux 3.14.13-c9
-7 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "start"
-8 error cwd /home/ubuntu/workspace
-9 error node -v v0.10.35
-10 error npm -v 1.4.28
-11 error path /home/ubuntu/workspace/package.json
-12 error code ENOENT
-13 error errno 34
+4 verbose stack Error: ENOENT, open '/home/ubuntu/workspace/package.json'
+5 verbose cwd /home/ubuntu/workspace
+6 error Linux 3.14.13-c9
+7 error argv "node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "start"
+8 error node v0.10.35
+9 error npm  v3.3.5
+10 error path /home/ubuntu/workspace/package.json
+11 error code ENOENT
+12 error errno 34
+13 error enoent ENOENT, open '/home/ubuntu/workspace/package.json'
+13 error enoent This is most likely not a problem with npm itself
+13 error enoent and is related to npm not being able to find a file.
 14 verbose exit [ 34, true ]
